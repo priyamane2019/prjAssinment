@@ -61,10 +61,10 @@ const CreateProduct = () => {
         />
         <select onChange={(e) => setBrand(e.target.value)} required>
           <option value="">Select Brand</option>
-          <option value="iphone">iPhone</option>
-          <option value="samsung">Samsung</option>
-          <option value="xiomi">Xiomi</option>
-          <option value="other">Other</option>
+          <option value="iphone">Honda</option>
+          <option value="samsung">Maruti</option>
+          <option value="xiomi">BMW</option>
+          <option value="other">Audi</option>
         </select>
         <input
           type="text"

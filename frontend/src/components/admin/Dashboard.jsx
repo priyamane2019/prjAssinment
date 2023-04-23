@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Outlet, NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
+//import {FaUsers, FaStrore, FaClipboard, FaTachometer} from "react-icons"
 
 const Dashboard = () => {
   const auth = useSelector((state) => state.auth);
