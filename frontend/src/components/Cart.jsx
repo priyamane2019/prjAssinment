@@ -10,7 +10,7 @@ import {
 } from "../slices/cartSlice";
 
 import { Link } from "react-router-dom";
-import PayButton from "./PayButton";
+import NotFound from "./NotFound";
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart);
@@ -107,7 +107,7 @@ const Cart = () => {
               </div>
               <p>Taxes and shipping calculated at checkout</p>
               {auth._id ? (
-                <PayButton cartItems={cart.cartItems} />
+                <NotFound cartItems={cart.cartItems} />
               ) : (
                 <button
                   className="cart-login"
